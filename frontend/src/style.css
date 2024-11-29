@@ -1,0 +1,74 @@
+/* General styles */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  background-image: url('https://img.freepik.com/premium-photo/yellow-color-bus-back-school-image-back-school-banner-picture_1190219-10527.jpg?w=500');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Container styles */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Typography styles */
+.typography {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Link styles */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Avatar styles */
+.avatar {
+  margin: 10px;
+  background-color: #1976d2;
+}
+
+/* Box styles */
+.box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu styles */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #555;
+}
